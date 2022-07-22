@@ -3,6 +3,12 @@
 }
 
 
+*{
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
 body{
     direction: rtl;
     font-family: 'vazir';
@@ -71,11 +77,26 @@ body{
   }
   
   .btn{
-      margin-top: 10px;
+      margin: 20px 0;
+      padding: 5px 30px;
     font-size: 17px;
     color: #fff;
     cursor: pointer;
     border: none;
-    background-color: transparent;
+    background-color: #c50d66;
     font-family: 'vazir';
+  }
+
+  .form span{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    text-align: center ;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+
+  .form span > a{
+    color: #03e9f4;
+    font-size: 14px;
   }
